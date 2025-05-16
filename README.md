@@ -1,30 +1,140 @@
-# Prediksi.ai
+# Prediksi.lol - Decentralized Prediction Market
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Prediksi.lol is Indonesia's first decentralized prediction market platform built on the Solana blockchain. Our platform empowers Indonesians to predict stock market movements through an intuitive, fast, and cost-effective interface.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/jumes-projects/v0-prediksi-ai)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/PJWYnedxsAe)
+## 🚀 Features
 
-## Overview
+- Real-time IDX stock predictions
+- Near-zero transaction fees (0.4s settlement)
+- Embedded wallet with one-click signup
+- Yes/No position trading
+- Real-time price feeds via Pyth oracles
+- PREDIK token utility & staking
+- Mobile-first interface
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🛠 Tech Stack
 
-## Deployment
+- **Frontend Framework:** Next.js 15
+- **Package Manager:** pnpm
+- **Styling:** Tailwind CSS
+- **UI Components:** 
+  - Radix UI
+  - Shadcn/ui
+  - Recharts for data visualization
+- **State Management:** React Hook Form
+- **Blockchain:** Solana
+- **Smart Contracts:** Rust
+- **Oracle Integration:** Pyth & Chainlink
 
-Your project is live at:
+## 🏃‍♂️ Getting Started
 
-**[https://vercel.com/jumes-projects/v0-prediksi-ai](https://vercel.com/jumes-projects/v0-prediksi-ai)**
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/prediksi-lol.git
+```
 
-## Build your app
+2. Install pnpm (if not installed):
+```bash
+npm install -g pnpm
+```
 
-Continue building your app on:
+3. Install dependencies:
+```bash
+pnpm install
+```
 
-**[https://v0.dev/chat/projects/PJWYnedxsAe](https://v0.dev/chat/projects/PJWYnedxsAe)**
+4. Run the development server:
+```bash
+pnpm dev
+```
 
-## How It Works
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## 💻 Development Commands
+
+```bash
+# Install dependencies
+pnpm install
+
+# Run development server
+pnpm dev
+
+# Build for production
+pnpm build
+
+# Start production server
+pnpm start
+
+# Run linter
+pnpm lint
+```
+
+## 🔑 Key Features Implementation
+
+### Prediction Markets
+- Binary (Yes/No) predictions for IDX stocks
+- Real-time price feeds integration
+- Automated settlement system
+
+### Wallet Integration
+- Seamless Solana wallet connection
+- Biometric security features
+- One-click transactions
+
+### Oracle Network
+- Pyth integration for primary data feeds
+- Chainlink backup for redundancy
+- Real-time IDX data streaming
+
+## 🎯 Market Focus
+
+- 18M crypto users in Indonesia
+- 12M active stock investors
+- $600B IDX market potential
+- Target: 10K users by Q4 2025
+
+## 🗺 Roadmap
+
+- **Q3 2025:** Testnet MVP launch
+- **Q4 2025:** Mainnet with 10 IDX stocks
+- **Q1 2026:** Full IDX rollout
+- **Q2 2026:** Regulatory sandbox entry
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) first.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+
+- Email: invest@prediksi.lol
+- Website: [https://v0-prediksi-ai.vercel.app/](https://v0-prediksi-ai.vercel.app/)
+- Presentation: [View Presentation](https://gamma.app/docs/Prediksilol-Decentralized-Prediction-Market-3d08rqas0oq4z5z)
+
+## 🙏 Acknowledgments
+
+Special thanks to the Solana Foundation, Pyth Network, and Chainlink for their support and infrastructure.
+
+---
+
+Built with ❤️ for Indonesia's financial future by [Nadiatus Salam](https://github.com/yourusername)
+
+## 📝 Notes
+
+- Make sure you have Node.js version 16 or higher installed
+- We recommend using pnpm for faster installation and better disk space usage
+- For better development experience, install recommended VS Code extensions
+
+## 🔧 Troubleshooting
+
+If you encounter any issues:
+
+1. Make sure your Node.js version is compatible
+2. Clear pnpm cache: `pnpm store prune`
+3. Delete node_modules and pnpm-lock.yaml: `rm -rf node_modules pnpm-lock.yaml`
+4. Reinstall dependencies: `pnpm install`
+
+For more detailed troubleshooting, please check our [FAQ](FAQ.md) or create an issue.

@@ -13,7 +13,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Link href="/" className="flex items-center gap-2">
-              <span className="text-xl font-bold text-primary">Prediksi.ai</span>
+              <span className="text-xl font-bold text-primary">Prediksi.lol</span>
             </Link>
           </div>
           <WalletConnect />
@@ -105,7 +105,7 @@ export default function Home() {
               Telegram
             </Link>
           </div>
-          <p className="text-sm text-muted-foreground">© 2025 Prediksi.ai. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">© 2025 Prediksi.lol. All rights reserved.</p>
         </div>
       </footer>
     </div>

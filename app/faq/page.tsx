@@ -11,14 +11,14 @@ export default function FAQPage() {
           <span>Back to Home</span>
         </Link>
         <h1 className="text-2xl font-bold md:text-3xl">Frequently Asked Questions</h1>
-        <p className="text-muted-foreground">Find answers to common questions about Prediksi.ai</p>
+        <p className="text-muted-foreground">Find answers to common questions about Prediksi.lol</p>
       </div>
 
       <Accordion type="single" collapsible className="w-full">
         <AccordionItem value="item-1">
-          <AccordionTrigger>What is Prediksi.ai?</AccordionTrigger>
+          <AccordionTrigger>What is Prediksi.lol?</AccordionTrigger>
           <AccordionContent>
-            Prediksi.ai is a decentralized prediction market platform for Indonesian stocks built on the Solana
+            Prediksi.lol is a decentralized prediction market platform for Indonesian stocks built on the Solana
             blockchain. Users can trade on the future price movements of IDX stocks with real-time data and instant
             settlements.
           </AccordionContent>
@@ -26,7 +26,7 @@ export default function FAQPage() {
         <AccordionItem value="item-2">
           <AccordionTrigger>How do prediction markets work?</AccordionTrigger>
           <AccordionContent>
-            Prediction markets allow users to buy or sell shares based on the outcome of future events. On Prediksi.ai,
+            Prediction markets allow users to buy or sell shares based on the outcome of future events. On Prediksi.lol,
             you can take positions on whether a stock will reach a certain price by a specific date. If your prediction
             is correct, you earn a profit; if not, you lose your investment.
           </AccordionContent>
@@ -34,7 +34,7 @@ export default function FAQPage() {
         <AccordionItem value="item-3">
           <AccordionTrigger>What is the PREDIK token?</AccordionTrigger>
           <AccordionContent>
-            PREDIK is the native utility token of the Prediksi.ai platform. It can be used for governance voting,
+            PREDIK is the native utility token of the Prediksi.lol platform. It can be used for governance voting,
             creating markets, earning staking rewards, and accessing premium features. PREDIK holders also receive a
             portion of platform fees.
           </AccordionContent>
@@ -64,11 +64,11 @@ export default function FAQPage() {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-7">
-          <AccordionTrigger>Is Prediksi.ai regulated?</AccordionTrigger>
+          <AccordionTrigger>Is Prediksi.lol regulated?</AccordionTrigger>
           <AccordionContent>
-            Prediksi.ai operates as a decentralized protocol on the Solana blockchain. While we strive to comply with
+            Prediksi.lol operates as a decentralized protocol on the Solana blockchain. While we strive to comply with
             applicable regulations, users should consult their local laws regarding prediction markets and
-            cryptocurrency trading. Prediksi.ai is not available in jurisdictions where such activities are prohibited.
+            cryptocurrency trading. Prediksi.lol is not available in jurisdictions where such activities are prohibited.
           </AccordionContent>
         </AccordionItem>
       </Accordion>

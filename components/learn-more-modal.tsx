@@ -28,7 +28,7 @@ export function LearnMoreModal({ children }: LearnMoreModalProps) {
       <DialogTrigger asChild>{children}</DialogTrigger>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle>About Prediksi.ai</DialogTitle>
+          <DialogTitle>About Prediksi.lol</DialogTitle>
           <DialogDescription>The decentralized prediction market for Indonesian stocks on Solana</DialogDescription>
         </DialogHeader>
         <div className="grid gap-4 py-4">
