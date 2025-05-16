@@ -30,7 +30,7 @@ Prediksi.lol is Indonesia's first decentralized prediction market platform built
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/prediksi-lol.git
+git clone https://github.com/nasamarca/prediksi-app.git
 ```
 
 2. Install pnpm (if not installed):
@@ -120,7 +120,7 @@ Special thanks to the Solana Foundation, Pyth Network, and Chainlink for their s
 
 ---
 
-Built with ❤️ for Indonesia's financial future by [Nadiatus Salam](https://github.com/yourusername)
+Built with ❤️ for Indonesia's financial future by [Nadiatus Salam](https://github.com/nasamarca)
 
 ## 📝 Notes
 
